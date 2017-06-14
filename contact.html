@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+  <title>Contact | Rumple's Big Debut</title>
+  <link rel="stylesheet" href="file:///Users/alyssamountz/Desktop/Mountz-Portfolio/stylesheet.css">
+  <meta name="description" content="Contact Rumple, world's best dog">
+  <link href='https://fonts.googleapis.com/css?family=Syncopate' rel='stylesheet'>
+  <link rel="shortcut icon" href="file:///Users/alyssamountz/Desktop/favicon.jpeg" />
+  <script src="javascript.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+    <a href="file:///Users/alyssamountz/Desktop/Mountz-Portfolio/homepage.html">Home</a>
+    <a href="file:///Users/alyssamountz/Desktop/Mountz-Portfolio/about.html">About</a>
+    </nav>
+  </header>
+  <h1>Contact Rumple for a Special Prediction</h1>
+    <form id="form1" action="file:///Users/alyssamountz/Desktop/Mountz-Portfolio/contact.html" method="post">
+      <fieldset>
+        <legend>Rumple's Fortune Teller</legend>
+      <label for="question">
+      Tell Rumple Your Problems
+      </label>
+      <br>
+      <textarea name="question" rows="8" cols="80"></textarea>
+      <input type="submit" value="Ask Away" onclick="return rumplesFuture();" />
+    </fieldset>
+    </form>
+    <br>
+  <div class="contactImage">
+    <img src='file:///Users/alyssamountz/Downloads/IMG_4130.JPG' width='400' height='400' onmouseover="this.src='file:///Users/alyssamountz/Desktop/fortune-teller.jpg';" onmouseout="this.src='file:///Users/alyssamountz/Downloads/IMG_4130.JPG';" />
+  </div>
+  <p> Want More Rumple in Your Lfe? Contact Him (his owner)</p>
+  <form class="contactForm" action="file:///Users/alyssamountz/Desktop/Mountz-Portfolio/contact.html" method="post">
+    <label>
+      Your Name
+      <input type="text" name="name">
+    </label>
+    <label>
+      Your Email
+      <input type="text" name="email">
+    </label>
+    <br>
+    <label for="comments">
+      Your Message
+    </label>
+    <br>
+    <textarea name="comments" rows="8" cols="80"></textarea>
+    <input type="submit" name="" value="Send Your Message">
+  </form>
+</body>

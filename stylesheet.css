@@ -1,0 +1,50 @@
+body {
+  color: silver;
+  background-image: url("file:///Users/alyssamountz/Downloads/star-clusters-74052_640.jpg");
+  font-family: 'Syncopate', serif;
+       font-size: 22px;
+}
+.body_content {
+  background-color: black;
+  opacity: .85;
+}
+
+#form1 {
+  background-color: black;
+}
+.outfits {
+border: solid gold;
+border-radius: 10px;
+}
+h2 {
+  background: gold;
+  color: black;
+}
+blockquote {
+  background-color: purple;
+}
+
+h1 {
+  background: gold;
+  color: black;
+}
+form {
+  color: gold;
+}
+
+.contactImage {
+  text-align: center;
+}
+
+p {
+  color: purple;
+  background-color: black;
+}
+span {
+  color: purple;
+  font-family: 'Orbitron';
+}
+
+nav, ol, .contactForm {
+  background-color: black;
+}
